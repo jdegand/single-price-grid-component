@@ -1,0 +1,188 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:  hsl(204, 43%, 93%);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 720px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 15px 20px 10px rgba(37,43,70, 0.1);
+          box-shadow: 0 15px 20px 10px rgba(37,43,70, 0.1);
+}
+
+.first-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 50px 60px;
+  width: 100%;
+}
+
+.second-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+  width: 50%;
+  background-color: hsl(179, 56%, 43%);
+  color: white;
+}
+
+.padding-div {
+  margin-left: 11.5%;
+}
+
+.third-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+  width: 50%;
+  color: white;
+  background-color: hsl(179, 62%, 43%);
+}
+
+h1 {
+  color: hsl(179, 56%, 43%);
+  padding-bottom: 16px;
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 8px;
+}
+
+.light-gray {
+  color: hsl(218, 22%, 67%);
+}
+
+.why-us {
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+#monthly-sub {
+  padding-bottom: 8px;
+}
+
+#signUpBtn {
+  width: 76%;
+  height: 50px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 35px;
+  border-radius: 5px;
+}
+
+#price-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 28px;
+  padding-bottom: 8px;
+}
+.price {
+  font-size: 28px;
+  padding-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.bottom-divs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 400px) {
+  .bottom-divs-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .first-div {
+    padding: 40px;
+  }
+
+  .second-div {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .third-div {
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  #signUpBtn {
+    height: 50px;
+  }
+
+  .first-div > p {
+    padding-bottom: 8px;
+  }
+
+}
