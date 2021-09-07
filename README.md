@@ -1,6 +1,52 @@
-# single-price-grid-component
-Frontend Mentor Challenge - Single Price Grid Component
+# Frontend Mentor - Single price grid component solution
 
-[Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-[Live Link](https://jdegand.github.io/single-price-grid-component/)
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See a hover state on desktop for the Sign Up call-to-action
+
+### Screenshot
+
+![](./single-grid-screenshot-desktop.png)
+
+![](./single-grid-screenshot-mobile.png)
+
+### Links
+
+- Live Site URL: [Github Pages](https://jdegand.github.io/single-price-grid-component/)
+
+## My process
+
+### Built with
+
+- CSS custom properties
+- Flexbox
+
+### What I learned
+
+### Continued development
+
+- Semantic HTML5 markup
+- Replace the import with link for google font
+
+### Useful resources
+
+- [Auto Prefixer Online](https://autoprefixer.github.io/) 
